@@ -1,0 +1,28 @@
+body {
+    background-color: #004650;
+}
+h1 {
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-cadastro {
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.div-main {
+    align-items: center;
+}
+
+label{
+    color: #f2f2f2;
+}
+
+.container-sm{
+    background-color: #007380;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0000;
+}
