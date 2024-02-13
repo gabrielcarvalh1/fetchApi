@@ -1,28 +1,81 @@
 body {
-    background-color: #004650;
+    background-image: url("img/background-img.png");
+    background-size: cover;
 }
+
+.main-div{
+    width: 40%;
+    height: 100vh;
+    background-color: #f2f2f2ef;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+
 h1 {
-    color: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ff7c44;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .btn-cadastro {
-    margin: 10px 0px 10px 0px;
+    margin: 50px 0px 10px 0px;
+    background-color: #CF4A11;
+
     
 }
 
-.div-main {
+
+.publicidade {
+    width: 60%;
+    height: 100vh;
+    background-color: #f2f2f26e;
+    padding: 20px;
+    position: fixed;
+    right: 0; /* Posiciona o elemento à direita */
+    top: 0;
+    overflow-y: auto;
     align-items: center;
+    justify-content: center;
 }
 
-label{
-    color: #f2f2f2;
+
+#img-fox {
+    width: 800px;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
 }
 
-.container-sm{
-    background-color: #007380;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px #0000;
+h2{
+    color: #12083c;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+button {
+    border-radius: 5px;
+    background-color: #839AA1;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+.icon-moon{
+    color: #F0F0F0;
+}
+
+
+.icon-sun {
+    color : #FFD700;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 30px auto;
 }
