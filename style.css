@@ -4,7 +4,7 @@ body {
 }
 
 .main-div{
-    width: 40%;
+    width: 30%;
     height: 100vh;
     background-color: #f2f2f2ef;
     padding-left: 15px;
@@ -29,7 +29,7 @@ h1 {
 
 
 .publicidade {
-    width: 60%;
+    width: 70%;
     height: 100vh;
     background-color: #f2f2f26e;
     padding: 20px;
@@ -45,8 +45,8 @@ h1 {
 #img-fox {
     width: 800px;
     height: 650px;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+    display: block; /* Garante que a imagem seja exibida como bloco para aplicar as margens automáticas */
 }
 
 h2{
@@ -60,7 +60,7 @@ h2{
 button {
     border-radius: 5px;
     background-color: #839AA1;
-    margin-left: 3px;
+    margin-left: 10px;
     font-size: 14px;
 }
 
