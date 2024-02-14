@@ -2,7 +2,7 @@ const cep = document.querySelector('#cep');
 const nome  = document.querySelector('#nome');
 const logradouro = document.querySelector('#logradouro');
 const localidade = document.querySelector('#localidade');
-const uf = document.querySelector('#uf');
+const senha = document.querySelector('#senha');
 const btn_cadastro = document.querySelector("#btn_cadastro");
 const btnDarkTheme = document.querySelector('#btnDarkTheme');
 const btnLightTheme = document.querySelector('#btnLightTheme');
@@ -27,7 +27,6 @@ cep.addEventListener('blur', (e) => {
 function printDados(dados){
     logradouro.value = dados.logradouro 
     localidade.value = dados.localidade 
-    uf.value = dados.uf 
 };
 
 
@@ -41,7 +40,7 @@ function converteDados(dados) {
     console.log(`Rua: ${arr[1].logradouro}, Cidade: ${arr[4].localidade},Bairro ${arr[3].bairro}`);
 };
 btn_cadastro.addEventListener('click', () => {
-    if(cep.value == '' || nome.value == '' || logradouro.value == '' || localidade.value == '' || uf.value == ''){
+    if(cep.value == '' || nome.value == '' || logradouro.value == '' || localidade.value == ''){
         alert('Todos os campos devem ser preenchidos, por gentileza confira novamente ⚠')
     }
 });
@@ -54,20 +53,18 @@ btnDarkTheme .addEventListener('click', () => {
         text.style.color = '#FFFFFF'
     });
 
-  
     let main_div = document.querySelector('.main-div')
     main_div.style.backgroundColor = "#4c565de7"
 
 });
-//#80F9C0 cor top
 
-//Light theme
+//Light Theme
+
 btnLightTheme .addEventListener('click', () => {
     let text = document.querySelectorAll('.text');
     text.forEach( function texts(text){
         text.style.color = '#151515'
     });
-
   
     let main_div = document.querySelector('.main-div')
     main_div.style.backgroundColor = "#f2f2f2ef"

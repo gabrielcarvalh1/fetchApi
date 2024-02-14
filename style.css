@@ -4,7 +4,7 @@ body {
 }
 
 .main-div{
-    width: 30%;
+    width: 35%;
     height: 100vh;
     background-color: #f2f2f2ef;
     padding-left: 15px;
@@ -29,7 +29,7 @@ h1 {
 
 
 .publicidade {
-    width: 70%;
+    width: 65%;
     height: 100vh;
     background-color: #f2f2f26e;
     padding: 20px;
